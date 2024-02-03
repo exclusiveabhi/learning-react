@@ -3,16 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>This is heading</h1>
-        <p>
-          This is the paragraph
-        </p>
-       
-      </header>
-    </div>
+    
+   <div className='navbar'>
+   
+       <ul>
+        {/* <li> <p className='namelogo'>Abhishek</p></li> */}
+        <li>Home</li>
+        <li>Project</li>
+        <li>Github</li>
+        <li>About</li>
+       </ul>
+   </div>
   );
 }
 
